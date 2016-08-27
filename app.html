@@ -1,0 +1,43 @@
+<!DOCTYPE html/>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<title>AudioToy</title>
+</head>
+
+<body>
+
+<!-- The outer container containing everything -->
+<div class="container">
+
+	<!-- The Nav Header -->
+	<nav class="nav">
+		<a class="logo" href="/">
+			<img src="resources/logo.png" width=335px height=95px></img>
+		</a>
+		<div class="nav_link_container">
+			<a class="nav_link" href="app.html"><img src="resources/app_link.png"></img></a>
+		</div>
+	</nav>
+	<section>
+		<h1>Audio Tool App Page</h1>
+
+		<h3 align=center>Sine Wave Generator</h3>
+
+		<div class="freq_sldr_container">
+			<input type="range" id="freq_sldr" min=21 max=127 value=69></slider>
+			<p id="freq_lbl">440 Hz</p>
+		</div>
+
+		<div class="play_btn_container">
+			<button id="play_btn">Play</button>
+		</div>
+	</section>
+
+</div>
+</body>
+
+</html>

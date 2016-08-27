@@ -32,7 +32,51 @@ p {
 	line-height: 1.5;
 }
 
+h1 {
+	font-size: 20pt;
+	text-align: center;
+}
+
 section {
 	padding-top: 50px;
 	margin: 5%;
+}
+
+.logo {
+	float: left;
+}
+
+.nav_link_container {
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	width: 10%;
+	height: 100%;
+}
+
+.nav_link {
+	
+	height: 100%;
+}
+
+.play_btn_container {
+	align-content: center;
+	text-align: center;
+}
+
+.freq_sldr_container {
+	vertical-align: top;
+	text-align: center;
+	height: auto;
+}
+
+#freq_sldr {
+	float: top;
+	width: 50%;
+}
+
+#freq_lbl {
+	float: top;
+	text-indent: 0em;
+	line-height: 1;
 }
