@@ -43,7 +43,7 @@ $(document).ready(function(){
 		}
 	}
 
-	document.getElementById("freq_sldr").onchange = document.getElementById("freq_sldr").mousemove = function () {
+	document.getElementById("freq_sldr").oninput = document.getElementById("freq_sldr").mousemove = function () {
 		var v = document.getElementById("freq_sldr").value;
 		var freq = Math.pow(2,(v - 69)/12)*440;
 		gen.setFrequency(freq);
